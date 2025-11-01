@@ -1,1 +1,9 @@
 
+## 2025-11-02 — Summary and Reflection
+
+This week, I improved my Quicksort experiment following the teacher’s guidelines.  
+I refined the experiment design by increasing the number of repetitions and extending the range of array sizes, reaching a total of 1050 runs. The execution order was randomized to reduce bias and make the data collection more robust. I implemented the entire workflow in Python, reproducing the same logic as the teacher’s R-based template, including clear separation between raw data, analysis, and figures.
+
+For the analysis, I computed descriptive statistics and 95% confidence intervals to assess measurement variability. I verified that execution time scales approximately as O(n log n) and observed that the parallel version becomes faster than the sequential one for larger input sizes (around 200k elements). The plots generated with Matplotlib mirror the type of analysis and visual quality expected in ggplot2.
+
+Through this assignment, I learned how to design and execute reproducible computational experiments, store and organize results systematically, and interpret performance data critically. Next steps will include testing on another machine to compare results and continuing the MOOC, especially the “Challenger” exercise from module 2.
